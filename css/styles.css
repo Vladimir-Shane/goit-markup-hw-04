@@ -115,18 +115,28 @@ align-items: center;
 .list-nav-link:focus {
     color:var(--brand-color);
 }
+.header-icon{
+    width: 16px;
+    height: 12px;
+}
 .contacts{
     display: flex;
 }
-.contacts-mail-link{
+.contacts-mail{
     margin-right: 50px;
 }
-.contacts-mail-link:hover,  
-.contacts-mail-link:focus {
+.contacts-link-mail:hover,   
+.contacts-link-mail:focus {
     color:var(--brand-color);
 }
-.contacts-tel-link:hover, 
-.contacts-tel-link:focus {
+/* .contacts-tel::before{
+    content: "";
+    background-image: url("./images/icons.svg#icon-envelope");
+    width: 10px;
+    height: 16px;
+} */
+.contacts-link-tel:hover,   
+.contacts-link-tel:focus {
     color:var(--brand-color);
 }
 .header-container{
